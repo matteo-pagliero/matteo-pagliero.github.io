@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="ast.png">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0"
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+  <section class="header">
+    <div class="text-overlay">
+      <p>&#128247 Salbertrand, Italy </p>
+    </div>
+    <nav>
+        <a href="index.html"><img src=""></a>
+        <p></p>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index_research.html">Research</a></li>
+            <li><a href="index_talks.html">Talks</a></li>
+            <li><a href="">Teaching</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Matteo Pagliero</h1>
+        <!--  <a href="" class="hero-btn">Matteo Pagliero</a> -->
+    </div>
+
+  </section>
+
+<!----- Course ------>
+
+<section class="course">
+  <h1> Home </h1>
+  <p> Welcome to my website</p>
+  <div class="row">
+
+  <div class="column left">
+    <img src="fwo_logo.jpg" width="auto" height="50"> <br><br>
+    <img src="KUL_logo.png" width="auto" height="50">
+  </div>
+
+  <div class="column middle">
+      <p> I am a PhD student in Mathematics at KU Leuven, under the supervision of Gábor Szabó.
+        I am currently supported by an FWO (Research Foundation Flanders) PhD Fellowship Fundamental Research, grant number 1131623N.
+        My main interests are in C*-algebras and C*-dynamical systems.
+        At the moment, I am working on the classification of group actions on C*-algebras.<br>
+
+       <br>I obtained my BSc and MSc degree from the University of Turin,
+        where I was also a fellow at SSST (School of Advanced Studies of Turin).</p>
+  </div>
+
+  <div class="column right">
+    <img src="foto_pagliero.jpg" width="250">
+  </div>
+</div>
+
+  <div class="column">
+    <div class="course-col">
+      <h3>Upcoming</h3>
+      <p>Seminar</p>
+    </div>
+    <div class="course-col">
+      <h3>External links</h3>
+      <p>OASIS</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!---JavaScript for Toggle Menu------->
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+</html>
