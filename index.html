@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matteo Pagliero</title>
+  <link rel="shortcut icon" type="image/x-icon" href="ast.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header>
+  <nav>
+    <div class="nav-links">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="#Publications">Publications</a></li>
+          <!-- <li><a href="#Talks">Talks</a></li> -->
+        </ul>
+    </div>
+  </nav>
+
+    <div class="wrapper">
+
+      <div class="left">
+        <img src="profile-photo.jpeg" class="profile-picture" width="300px"/>
+        <h1 class="roboto-light"> Matteo Pagliero </h1>
+        <!--  <p> <tt>matteo [dot] pagliero [at] kuleuven [dot] be</tt> </p>  -->
+      </div>
+
+      <div class="right">
+        <p class="roboto-light">
+          I am a PhD student in Mathematics at KU Leuven, under the supervision of Gábor Szabó.
+          My research is supported by an FWO (Research Foundation Flanders) PhD Fellowship Fundamental Research (grant number 1131623N).<br>
+
+          <br>My main research interests are structure theory and classification of C*-algebras and C*-dynamical systems.
+          My current work focuses on the classification of amenable actions of locally compact groups on non-simple C*-algebras.<br>
+
+          <br>Reach out to me at<br>
+          <a  href="mailto:matteo.pagliero@kuleuven.be" class="roboto-links"><tt>matteo.pagliero [at] kuleuven.be</tt></a><br>
+
+          <!-- <br>Download my CV<br>
+          <a  href="location of the file" class="roboto-links" download><tt>cv_matteo</tt></a> -->
+        </p>
+      </div>
+    </div>
+ </header>
+
+ <main>
+    <div class="papers-list">
+        <h2 class="roboto-light" id="Publications"> <center> Publications </center> </h2>
+          <ol reversed>
+            <li class="roboto-light">M. Pagliero, G. Szabó.<b> Classification of equivariantly O2-stable amenable actions on nuclear C*-algebras.</b> <!--To appear in <i> J. Funct. Anal.</i>--> (2024) 38 pp. <a href="https://arxiv.org/abs/2309.12472" target="_blank" rel="noopener noreferrer" class="roboto-links"><tt>arxiv_link</tt></a></li>
+            <li class="roboto-light">M. Pagliero. <b>Continuous actions on primitive ideal spaces lift to C*-actions.</b> (2024) 18 pp. <a href="https://arxiv.org/abs/2406.04297" target="_blank" rel="noopener noreferrer" class="roboto-links"><tt>arxiv_link</tt></a></li>
+          </ol>
+    </div>
+
+    <!--
+    <div class="talks-list">
+        <h2 class="roboto-light" id="Talks"> <center> Talks (selected) </center> </h2>
+          <table class="roboto-light">
+            <tr>
+              <td> 14.02.2024 </td>
+              <td> <b>Equivariantly O2-stable actions: classification and range of the invariant.</b> <i>Functional Analysis Seminar.</i> University of Oxford, UK</td>
+            </tr>
+            <tr>
+              <td> 28.09.2023 </td>
+              <td> <b>Classification of equivariantly O2-stable amenable actions on nuclear C*-algebras.</b> <i>Analysis Seminar.</i> University of Waterloo, Canada</td>
+            </tr>
+            <tr>
+              <td> 6.10.2022 </td>
+              <td> <b>On the classification of equivariantly O2-stable actions on nuclear C*-algebras.</b> <i>Analysis Seminar.</i> University of Southern Denmark, Denmark</td>
+            </tr>
+          </table>
+    </div>
+  -->
+  </main>
+
+    <footer>
+      <p class="roboto-light"> Last update: July 2024 </p>
+    </footer>
+
+
+  <!---JavaScript for Toggle Menu------->
+    <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+  /* JavaScript for transparent top bar */
+
+    window.addEventListener('scroll', function() {
+        var scrollY = window.scrollY;
+        if (scrollY > 600) { // Adjust the threshold based on your preference
+          document.getElementById('fixed-top-bar').classList.add('active');
+        } else {
+          document.getElementById('fixed-top-bar').classList.remove('active');
+        }
+      });
+
+    </script>
+</body>
+</html>
