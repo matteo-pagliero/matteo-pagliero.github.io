@@ -229,7 +229,7 @@ ol > li::marker {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-@media(max-width: 700px){
+@media(max-width: 1150px){
     header {
       display: flex;
       margin: 0;
