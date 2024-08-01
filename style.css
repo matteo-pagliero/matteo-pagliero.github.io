@@ -242,7 +242,6 @@ ol > li::marker {
       float: left;
       position: sticky;
       z-index: 2;
-      font-size: 12pt;
     }
 
     main {
@@ -284,6 +283,10 @@ ol > li::marker {
       justify-content: center;
       float: left;
     }
+
+    .right {
+      font-size: 12pt;
+    }  
 
     .papers-list {
       background-color: white;
