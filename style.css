@@ -113,7 +113,7 @@ nav{
   font-weight: 300;
   font-style: normal;
   text-decoration: none;
-  color: #0000EE;
+  color: black;
 }
 
 .wrapper {
@@ -286,7 +286,7 @@ ol > li::marker {
 
     .right {
       font-size: 12pt;
-    }  
+    }
 
     .papers-list {
       background-color: white;
