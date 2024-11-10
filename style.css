@@ -292,8 +292,12 @@ ol > li::marker {
       float: left;
     }
 
-    .right {
-      font-size: 12pt;
+    .left p{
+      font-size: 22pt;
+    }
+
+    .right p{
+      font-size: 20pt;
     }
 
     .papers-list {
@@ -303,5 +307,13 @@ ol > li::marker {
       display: flex;
       flex-direction: column;
       float: left;
+    }
+
+    .papers-list h2{
+      font-size: 22pt;
+    }
+
+    .papers-list li{
+      font-size: 20pt;
     }
 }
