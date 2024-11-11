@@ -136,11 +136,15 @@ nav{
 .papers-list {
   background-color: white;
 
-  max-width: 65%;
+  max-width: 75%;
   display: flex;
   flex-direction: column;
   height: 80%;
   margin-bottom: 2em;
+}
+
+.papers-list h2{
+  font-size: 23px;
 }
 
 .talks-list {
@@ -180,7 +184,7 @@ nav{
   font-weight: 300;
   font-style: normal;
   font-size: 14pt;
-  margin-left: 1em;
+  margin-left: -3em;
   margin-right: 2em;
   transform: rotate(180deg); /* Rotate the child element of 180 degrees */
 }
